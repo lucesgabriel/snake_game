@@ -1,50 +1,65 @@
 # Snake Game
 
-A classic Snake game implemented in HTML, CSS, and JavaScript. Control the snake, eat the food, and try to achieve the highest score without hitting the walls or yourself!
+A classic Snake game implemented in HTML, CSS, and JavaScript. This simple yet engaging game features smooth controls, score tracking, and responsive design.
 
 ## Features
 
-- Smooth snake movement
+- Classic snake gameplay
 - Score tracking
-- Collision detection
-- Responsive controls
-- Start/Stop functionality
+- Responsive controls using arrow keys
+- Clean and modern UI
+- Collision detection (walls and self)
+- Food spawning system
+- Game over state
+- Instant restart capability
 
 ## How to Play
 
-1. Click the 'Start Game' button to begin
-2. Use the arrow keys to control the snake's direction
-3. Eat the red food to grow and increase your score
-4. Avoid hitting the walls and the snake's own body
-5. Try to achieve the highest score possible!
+1. Open `index.html` in your web browser
+2. Use the arrow keys to control the snake:
+   - ↑ Up Arrow: Move Up
+   - ↓ Down Arrow: Move Down
+   - ← Left Arrow: Move Left
+   - → Right Arrow: Move Right
+3. Eat the red food blocks to grow and increase your score
+4. Avoid hitting the walls or the snake's own body
+5. Click "New Game" or refresh the page to start over
 
-## Controls
+## Technical Details
 
-- ↑ (Up Arrow): Move Up
-- ↓ (Down Arrow): Move Down
-- ← (Left Arrow): Move Left
-- → (Right Arrow): Move Right
+The game is built using:
+- HTML5 Canvas for rendering
+- JavaScript for game logic
+- CSS for styling
+
+### Game Mechanics
+
+- The snake moves at a constant speed
+- Each food item eaten increases the score by 10 points
+- The snake grows longer with each food item eaten
+- The game ends when the snake hits a wall or itself
+- Movement is restricted to prevent immediate reversal of direction
 
 ## Installation
 
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/lucesgabriel/snake_game.git
-   ```
-2. Open `index.html` in your web browser
-3. Start playing!
+```bash
+git clone https://github.com/yourusername/snake_game.git
+```
 
-## Technologies Used
+2. Navigate to the project directory:
+```bash
+cd snake_game
+```
 
-- HTML5
-- CSS3
-- JavaScript
-- HTML5 Canvas
+3. Open `index.html` in your web browser
+
+No additional dependencies or installation required!
 
 ## Contributing
 
-Feel free to submit issues and enhancement requests!
+Contributions are welcome! Feel free to submit issues and pull requests.
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is licensed under the MIT License - see the LICENSE file for details.
